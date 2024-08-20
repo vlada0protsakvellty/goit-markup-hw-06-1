@@ -23,13 +23,18 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -136,6 +141,15 @@ p {
 /* #endregion Effective Solutions */
 
 /* #region section 2 */
+.features-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.properties-list {
+  width: calc((100% - 72px) / 4);
+}
 .title-sub {
   font-weight: 500;
   font-size: 20px;
