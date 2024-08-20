@@ -130,6 +130,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .effective-btn {
   font-family: "Roboto", sans-serif;
@@ -144,7 +147,10 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .effective-btn:hover,
 .effective-btn:focus {
@@ -166,11 +172,12 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 }
 .features-list {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 .properties-list {
@@ -182,6 +189,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .description-text {
   font-size: 16px;
@@ -202,12 +210,33 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.our-team-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-list {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
+.team-name {
+  padding: 32px 0;
+}
+
+.title-sub {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.description-text {
+  text-align: center;
+}
 /* #endregion section 3 */
 
 /* #region section 4 */
