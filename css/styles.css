@@ -295,7 +295,9 @@ img {
 .link-icon:focus {
   background-color: #404bbf;
 }
-
+.icon-svg {
+  fill: #f4f4fd;
+}
 .title-sub {
   text-align: center;
   margin-bottom: 8px;
