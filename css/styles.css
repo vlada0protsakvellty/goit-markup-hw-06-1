@@ -359,6 +359,9 @@ img {
   display: flex;
   align-items: baseline;
 }
+.logo-container {
+  margin-right: 120px;
+}
 .description-part {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -369,10 +372,6 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.logo-post {
-  margin-right: 120px;
 }
 
 .social-media {
