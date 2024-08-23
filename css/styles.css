@@ -269,12 +269,12 @@ img {
 
 .team-name {
   padding: 32px 0;
-  margin-bottom: 8px;
 }
 
 .media-list-team {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   gap: 24px;
 }
 
