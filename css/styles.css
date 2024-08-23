@@ -422,7 +422,7 @@ img {
   height: 40px;
 }
 
-.link-icon1 {
+.link-iconss {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -433,7 +433,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon1:hover,
+.link-iconss:hover,
 .link-icon1:focus {
   background-color: #31d0aa;
 }
