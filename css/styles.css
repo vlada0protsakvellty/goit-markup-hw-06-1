@@ -220,6 +220,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: left;
 }
 .description-text {
   font-size: 16px;
@@ -270,6 +271,24 @@ img {
 .team-name {
   padding: 32px 0;
 }
+.title-person {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.description-person {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #434455;
+}
 
 .media-list-team {
   display: flex;
@@ -301,14 +320,6 @@ img {
 
 .icon-svg {
   fill: #f4f4fd;
-}
-.title-sub {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.description-text {
-  text-align: center;
 }
 /* #endregion section 3 */
 
