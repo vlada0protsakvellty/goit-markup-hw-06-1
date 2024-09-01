@@ -576,6 +576,13 @@ img {
 }
 
 .modal-form-label-comment {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 8px;
 }
 
 .modal-textarea {
@@ -586,6 +593,13 @@ img {
   border-radius: 4px;
   width: 360px;
   height: 120px;
+  resize: none;
+  outline: none;
+  display: block;
+}
+
+.modal-textarea:focus {
+  border-color: #4d5ae5;
 }
 
 .modal-textarea::placeholder {
@@ -594,6 +608,67 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.form-wrraper-cont-comment {
+  margin-bottom: 7px;
+}
+
+.custom-checkbox {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.modal-cont-checkbox {
+  margin-bottom: 24px;
+}
+
+.checkbox:checked + .custom-label-user-checkbox > .custom-checkbox {
+  border-color: transparent;
+  background-color: #404bbf;
+}
+
+.privacy-policy {
+  text-decoration: underline;
+  color: #4d5ae5;
+}
+
+.custom-label-user-checkbox {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-submit {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.modal-submit:hover,
+.modal-submit:focus {
+  color: #fff;
+  background-color: #404bbf;
 }
 
 /* #endregion form */
